@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-black text-white font-Jost tracking-wider
+}
+.nav-link{
+ @apply text-lg font-bold duration-300 border border-transparent px-3  rounded-md
+}
+.nav-link:hover{
+  @apply text-[#00fe00] border-[#00fe00]
+}
+section{
+  @apply py-20 md:py-28; 
+}
+h1{
+  @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+
+/* button */
+.btn{
+  @apply border-2 border-[#00fe00]  bg-transparent rounded-md py-2 px-5
+ duration-300
+}
+.btn span{
+  @apply font-bold text-white 
+}
+.btn:hover{
+  @apply  bg-transparent border-[#00fe00] text-[#00FE00] opacity-40;
+  box-shadow:0 0 10px 5px #00fe00;
+}
+.btn_outline{
+  @apply bg-transparent
+}
+
+.shadoww{
+  box-shadow:0 0 10px 5px #00fe00;
+}
